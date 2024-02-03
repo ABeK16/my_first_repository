@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us Form</title>
+<style> 
+form{ text-align: center;  
+    padding-top: 10%;
+    font-style: arial;
+    color: blueviolet;
+    }
+    h1{size: 50%;
+    color: blue;
+    text-align: center;
+    padding-top: 20%;}
+
+    input{color: blueviolet;}
+
+    </style>
+</head>
+<h1>Contact Us Form</h1>
+<body>
+
+    
+<form action="https://api.web3forms.com/submit" method="POST">
+<input type="hidden" name="apikey" value="707b92ec-eb25-4c8c-9816-1da923ea8bb8">
+
+<label for="name">Name:</label>
+<input type="text" id="name" name="name"><br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email"><br><br>
+<label for="message">Message:</label>
+<textarea id="message" name="message"></textarea><br><br>
+<input type="submit" value="Send">
+<input type="hidden" name="redirect" value="https://www.mapledigitalm.com/home">
+
+</form>
+</body>
+</html>
